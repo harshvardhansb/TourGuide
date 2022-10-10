@@ -1,4 +1,5 @@
-# TourGuide
+# TourGuide  
+### - Star ⭐ the repository if you liked it!
 
  A simple application made using HTML, CSS, JavaScript.
 
