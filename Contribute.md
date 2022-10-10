@@ -8,6 +8,10 @@
  [GitHub Link](https://github.com/anupgupta09) 
 <!-- next name below this line -->
 
+### [Adarsh Gupta](https://github.com/adarsh1114)
+ [GitHub Link](https://github.com/adarsh1114) 
+<!-- next name below this line -->
+
 ### [Name](linkdin link)
  [GitHub](Github link)
 <!-- next name below this line -->
