@@ -23,8 +23,9 @@ Contributing to TourGuide is a cake-walk as long as you follow the below steps ð
 - Choose a destination whose card you want to contribute, make sure it's not there on the site yet 
 - `Fork` the repository
 - Download that place's image and upload it to the `images` folder. Make sure you provide a valid name to your image file
-- Copy the Card template code given below & fill in the information as directed
+- Copy the Card template code given below & fill in the information as directed 
 - Note: Copy & paste the entire code as it is after filling the details of the character!
+-  ` Atmost 3 cards in a row ..Create a new row if you want to add more`
 <!--Sample [Character Name] card start-->
                  <!--image card start-->
                <div class="image">
