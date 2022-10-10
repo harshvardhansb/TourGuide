@@ -16,7 +16,7 @@
  [GitHub Link](https://github.com/im-anahata) 
 <!-- next name below this line -->
 
-### [Kanika Singh](https://github.com/kanikasingh0)
+### [Kanika Singh (kanikasingh0)](https://github.com/kanikasingh0)
  [GitHub Link](https://github.com/kanikasingh0)
 <!-- next name below this line -->
 
