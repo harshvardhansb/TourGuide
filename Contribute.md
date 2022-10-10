@@ -24,6 +24,11 @@
  [GitHub Link](https://github.com/shivam04099)
 <!-- next name below this line -->
 
+### [Hitarth Raval](https://www.linkedin.com/in/ravalhitarth/)
+ [GitHub](https://github.com/hitarthraval)
+<!-- next name below this line --> 
+
+
 ### [Name](linkdin link)
  [GitHub](Github link)
 <!-- next name below this line --> 
