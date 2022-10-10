@@ -4,13 +4,12 @@
 
 
 
-This respository is maintained by: [Harsh Vardhan](https://github.com/harshvardhansb)
+Maintained by: [Harsh Vardhan](https://github.com/harshvardhansb)
 
-Note: <i>This repository is created with the sole intent of guiding beginners to their initial Open Source contributions.</i>
 
 ## What you can Contribute?
 
-There is always something to contribute to a project whether you are a Novice or a Veteran. In this project, you can add your favourite place to visit as a card to the website! 
+There is always something to contribute for everyone. In this project, you can add your favourite place to visit as a card to the website! 
 Or maybe you didn't like the line that you are reading right now and want to change it! Well, why not?
 
 We appreciate all kinds of contributions from core-code contributions to non-code contributions like fixing the site, suggesting a feature, raising an issue, etc.
