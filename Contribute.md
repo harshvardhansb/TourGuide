@@ -20,8 +20,8 @@
  [GitHub Link](https://github.com/kanikasingh0)
 <!-- next name below this line -->
 
-### [Shivam kumar]((https://github.com/shivam04099)
- [GitHub Link]((https://github.com/shivam04099)
+### [Shivam kumar](https://github.com/shivam04099)
+ [GitHub Link](https://github.com/shivam04099)
 <!-- next name below this line -->
 
 ### [Name](linkdin link)
