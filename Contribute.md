@@ -26,5 +26,5 @@
 
 ### [Name](linkdin link)
  [GitHub](Github link)
-<!-- next name below this line -->
+<!-- next name below this line --> 
 
