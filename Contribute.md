@@ -16,8 +16,8 @@
  [GitHub Link](https://github.com/im-anahata) 
 <!-- next name below this line -->
 
-### [Kanika Singh]([https://github.com/im-anahata](https://github.com/kanikasingh0))
- [GitHub Link](#) 
+### [Kanika Singh](https://github.com/kanikasingh0)
+ [GitHub Link](https://github.com/kanikasingh0)
 <!-- next name below this line -->
 
 ### [Name](linkdin link)
