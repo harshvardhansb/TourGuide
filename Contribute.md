@@ -12,6 +12,10 @@
  [GitHub Link](https://github.com/adarsh1114) 
 <!-- next name below this line -->
 
+### [Amartesh Singh](https://github.com/im-anahata)
+ [GitHub Link](https://github.com/im-anahata) 
+<!-- next name below this line -->
+
 ### [Name](linkdin link)
  [GitHub](Github link)
 <!-- next name below this line -->
