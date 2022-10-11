@@ -40,7 +40,7 @@ Only contributors can add their name here  ⬅️
 <!-- next name below this line --> 
 
 
-### [Sanket Kale](https://www.linkedin.com/in/sanket-kale)
- [GitHub](https://github.com/sanketkale99)
+### [Name](linkdin link)
+ [GitHub](Github link)
 <!-- next name below this line --> 
 
