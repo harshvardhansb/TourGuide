@@ -57,3 +57,9 @@ description: Issue no: #[Issue no here] (for adding a new place its #4)
 - That's it, you have successfully contributed to tourGuide. Your Place will appear on the site within minutes of your PR getting merged 😄
 - Star ⭐ the repository if you liked it!
 
+
+# ↘️ OUR AMAZING CONTRIBUTORS ⭐
+<a href="https://github.com/harshvardhansb/TourGuide/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=harshvardhansb/TourGuide" />
+</a>
+
