@@ -39,6 +39,9 @@ Only contributors can add their name here  ⬅️
  [GitHub](https://github.com/SUBHANGI-DHASMANA)
 <!-- next name below this line --> 
 
+### [Sanket Kale](https://www.linkedin.com/in/sanket-kale)
+ [GitHub](https://github.com/sanketkale99)
+<!-- next name below this line --> 
 
 ### [Name](linkdin link)
  [GitHub](Github link)
