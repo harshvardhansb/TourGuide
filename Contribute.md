@@ -39,7 +39,10 @@ Only contributors can add their name here  ⬅️
  [GitHub](https://github.com/SUBHANGI-DHASMANA)
 <!-- next name below this line --> 
 
-
+### [Chinmayee](https://www.linkedin.com/in/chinmayee-yeladi-612493244/)
+ [GitHub](https://github.com/chinmayee3)
+ 
+<!-- next name below this line --> 
 ### [Name](linkdin link)
  [GitHub](Github link)
 <!-- next name below this line --> 
