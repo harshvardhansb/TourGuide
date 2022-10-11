@@ -39,9 +39,6 @@ Only contributors can add their name here  ⬅️
  [GitHub](https://github.com/SUBHANGI-DHASMANA)
 <!-- next name below this line --> 
 
-### [Harsh](https://github.com/harshisdead)
- [GitHub](https://github.com/harshisdead)
-<!-- next name below this line --> 
 
 ### [Name](linkdin link)
  [GitHub](Github link)
