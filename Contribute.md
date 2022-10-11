@@ -35,8 +35,14 @@ Only contributors can add their name here  ⬅️
  [GitHub](https://github.com/hitarthraval)
 <!-- next name below this line --> 
 
-### [Subhangi](https://www.linkedin.com/in/subhangi-dhasmana-04a911235/)
- [GitHub](https://github.com/SUBHANGI-DHASMANA)
+### [Harsh](https://github.com/harshisdead)
+ [GitHub](https://github.com/harshisdead)
+<!-- next name below this line --> 
+
+
+
+### [Subhangi]()
+ [GitHub]()
 <!-- next name below this line --> 
 
 
