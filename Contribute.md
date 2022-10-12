@@ -43,7 +43,7 @@ Only contributors can add their name here  ⬅️
  [GitHub](https://github.com/sanketkale99)
 <!-- next name below this line --> 
 
-### [Name](linkdin link)
- [GitHub](Github link)
+### [Amit Das](https://www.linkedin.com/in/amit-das-ad)
+ [GitHub](https://github.com/das-amit)
 <!-- next name below this line --> 
 
