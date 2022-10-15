@@ -312,6 +312,11 @@ body{
 	}
 }
       
-
+#Bottom {
+  font-size: 15px;
+  padding: 20.5px;
+  color : white;
+  margin-bottom: 60px;
+}
 
 
