@@ -10,7 +10,7 @@
 body {
   height: 100vh;
   font-family: "Raleway", sans-serif;
-  background: #2f3238;
+  background: white;
 }
 
 /* image slider */
@@ -363,4 +363,15 @@ body {
    padding: 20px;
    color:#fff;
    margin-bottom: 60px;
+}
+/* theme changer  */
+.themechanger i
+{
+    font-size: 50px;
+    cursor: pointer;
+    position: fixed;
+    top:85%;
+    left: 95%;
+    z-index: 90;
+
 }
