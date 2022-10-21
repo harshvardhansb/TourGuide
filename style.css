@@ -233,6 +233,7 @@ body {
   text-align: center;
   font-size: 1.7rem;
   text-transform: uppercase;
+  text-decoration: none;
   font-weight: 300;
   margin-top: 70px;
   transition: 0.4s;
@@ -241,6 +242,8 @@ body {
 
 .image .details h2 span {
   font-weight: 900;
+  font-weight: bold;
+  text-decoration: none;
 }
 
 .image:hover .details h2 {
@@ -254,7 +257,7 @@ body {
   margin: 2em 0;
   padding: 0 1.5em;
   line-height: 1.4rem;
-  transition: 0.6s;
+  transition: 0.6s ease;
   transition-property: opacity, transform;
 }
 
@@ -272,7 +275,7 @@ body {
   align-items: center;
   padding: 15px;
   bottom: -60px;
-  transition: 0.6s;
+  transition: 0.6s ease;
   transition-property: bottom;
 }
 
