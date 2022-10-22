@@ -43,7 +43,7 @@ body {
   border-radius: 5px;
 }
 
-.slide:hover img{
+.slide:hover img {
   color: #000;
   backdrop-filter: blur(15px);
   filter: blur(10px);
@@ -304,25 +304,7 @@ body {
   margin-right: 20px;
 }
 
-/* Responsive CSS */
 
-@media (max-width: 1080px) {
-  .image {
-    flex: 100%;
-    max-width: 480px;
-  }
-}
-
-@media (max-width: 400px) {
-  .image .details p {
-    font-size: 16px;
-  }
-
-  .more .read-more,
-  .more .icon-links a i {
-    font-size: 18px;
-  }
-}
 
 .details {
   opacity: 0;
@@ -336,7 +318,7 @@ body {
   inset: 0;
 }
 
-.image:hover > .details {
+.image:hover>.details {
   transition: 250ms ease;
   opacity: 1;
 }
@@ -362,19 +344,97 @@ body {
 }
 
 #Bottom {
-   text-align: center;
-   padding: 20px;
-   color:#fff;
-   margin-bottom: 60px;
+  text-align: center;
+  padding: 20px;
+  color: #fff;
+  margin-bottom: 60px;
 }
+
 /* theme changer  */
-.themechanger i
-{
+
+
+.themechanger {
+  font-size: 50px;
+  cursor: pointer;
+  position: fixed;
+  top: 85%;
+  left: 90%;
+  z-index: 90;
+  transition: all 0.3s ease;
+  background: rgb(219, 211, 211);
+  border-radius: 20px;
+  height: 60px;
+  width: 60px;
+  display: flex;
+  justify-content: center;
+}
+
+.themechanger:hover {
+
+  background: rgb(208, 197, 197);
+  bottom: 6%;
+  width: 65px;
+  height: 65px;
+  filter: blur(0.1rem);
+
+
+}
+
+/* Responsive CSS */
+
+@media (max-width: 1080px) {
+  .image {
+    flex: 100%;
+    max-width: 480px;
+  }
+}
+
+
+@media (max-width: 600px) {
+  .themechanger {
     font-size: 50px;
     cursor: pointer;
     position: fixed;
-    top:85%;
-    left: 95%;
+    top: 85%;
+    left: 86%;
     z-index: 90;
+    transition: all 0.3s ease;
+    background: rgb(219, 211, 211);
+    border-radius: 20px;
+    height: 60px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+  }
+
+}
+@media (max-width: 400px) {
+  .image .details p {
+    font-size: 16px;
+  }
+
+  .more .read-more,
+  .more .icon-links a i {
+    font-size: 18px;
+  }
+
+  .themechanger {
+    font-size: 50px;
+    cursor: pointer;
+    position: fixed;
+    top: 85%;
+    left: 80%;
+    z-index: 90;
+    transition: all 0.3s ease;
+    background: rgb(219, 211, 211);
+    border-radius: 20px;
+    height: 60px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+  }
+
+
+
 
 }

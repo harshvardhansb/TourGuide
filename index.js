@@ -10,9 +10,12 @@ toggle.addEventListener('click', function(){
         body.style.color = 'black';
         backtotop.style.color="black";
         body.style.transition = '2s';
+        toggle.style.color = 'black';
     }else{
         body.style.background = '#1d212b';
         body.style.color = 'white';
         body.style.transition = '2s';
+        toggle.style.color = 'black';
+
     }
 });
