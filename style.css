@@ -17,6 +17,101 @@ body {
   background: white;
 }
 
+/* header */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html
+{
+  scroll-behavior: smooth;
+}
+
+body {
+  height: 100vh;
+  font-family: "Raleway", sans-serif;
+  background: white;
+}
+
+/* header */
+
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+header{
+  width: 98vw;
+  height: 10vh;
+  border-bottom: solid 1px rgba(16, 16, 16, 0.1);
+  font-family: 'Poppins';
+}
+
+header .inner{
+  width: 100%; /* This is the inner width of the content inside of your header (80%, etc) */
+  height: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+header .logo{
+  display: table;
+  height: 100%;
+  float: left;
+}
+
+header .logo div{
+  height: 100%;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+header .logo img{
+  height: 10vh;
+  margin-left: 4vw;
+  border-radius: 5rem;
+  /* margin-top: 5px; Optical alignment of the logo */
+}
+
+header nav{
+  float: right;
+  height: 100%;
+}
+
+header nav li{
+  display: table;
+  height: 100%;
+  float: left;
+  margin-right: 60px;
+}
+
+header nav li:last-of-type{
+  margin-right: 5vh;
+}
+
+header nav span {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+header nav a{
+  color: #101010;
+}
+
+header nav .button{
+  background-color: #1ab26b; /* This HEX is the color of the button */
+  color: #FFF;
+  padding: 10px 20px;
+  border-radius: 4px;
+}
+
+header nav .button:hover{
+  filter: brightness(1.05);
+}
+
 /* image slider */
 
 
