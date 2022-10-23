@@ -6,6 +6,10 @@
   padding: 0;
   box-sizing: border-box;
 }
+html
+{
+  scroll-behavior: smooth;
+}
 
 body {
   height: 100vh;
@@ -354,7 +358,7 @@ body {
 
 
 .themechanger {
-  font-size: 50px;
+  font-size: 30px;
   cursor: pointer;
   position: fixed;
   top: 85%;
@@ -363,18 +367,19 @@ body {
   transition: all 0.3s ease;
   background: rgb(219, 211, 211);
   border-radius: 20px;
-  height: 60px;
-  width: 60px;
+  height: 50px;
+  width: 50px;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .themechanger:hover {
 
   background: rgb(208, 197, 197);
   bottom: 6%;
-  width: 65px;
-  height: 65px;
+  width: 55px;
+  height: 55px;
   filter: blur(0.1rem);
 
 
@@ -392,7 +397,7 @@ body {
 
 @media (max-width: 600px) {
   .themechanger {
-    font-size: 50px;
+    font-size: 30px;
     cursor: pointer;
     position: fixed;
     top: 85%;
@@ -408,6 +413,7 @@ body {
   }
 
 }
+
 @media (max-width: 400px) {
   .image .details p {
     font-size: 16px;
@@ -437,4 +443,37 @@ body {
 
 
 
+}
+
+/* back to button css  */
+.back_to_top {
+  font-size: 30px;
+  cursor: pointer;
+  position: fixed;
+  top: 85%;
+  left: 10%;
+  z-index: 90;
+  transition: all 0.3s ease;
+  background: rgb(219, 211, 211);
+  border-radius: 20px;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.back_to_top:hover {
+
+  background: rgb(208, 197, 197);
+  bottom: 6%;
+  width: 55px;
+  height: 55px;
+  filter: blur(0.1rem);
+
+
+}
+ a
+{
+  color : white;
 }
