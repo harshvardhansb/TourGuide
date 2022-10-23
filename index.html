@@ -7,6 +7,7 @@
   <title>TourGuide</title>
   <link rel="icon" type="image/x-icon" href="slider/travel.ico" />
   <link rel="stylesheet" href="style.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" charset="utf-8"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
 </head>
@@ -103,6 +104,7 @@
 
   <!--image card layout start-->
   <div class="container">
+    <div class="card-content" style="display: none">
     <!--image row start-->
     <div class="row">
       <!--image card start-->
@@ -230,7 +232,7 @@
 
     <!--image row start-->
     <div class="row">
-      <!--image card start-->
+      <!-- image card start -->
       <div class="image">
         <img src="images/amerfort.jpg" alt="" />
         <div class="details">
@@ -290,10 +292,8 @@
         </div>
       </div>
       <!--image card end-->
-      <!--image card end-->
-      <!--image card start-->
       <!--    add in this row if only 1 or 2 cards are not present else create a new row   -->
-    </div>
+    </div> 
     <!--image row end-->
 
     <!--image row start-->
@@ -464,114 +464,9 @@
           </div>
         </div>
         <!--image card end-->
-
-        <!--image row start-->
-        <div class="row"></div>
-        <!--image row start-->
-        <div class="row">
-          <!--image card start-->
-          <div class="image">
-            <img src="images/dallake.jpg" alt="" />
-            <div class="details">
-              <h2>Dal Lake <span> Srinagar </span></h2>
-              <p>
-                Dal is a lake in Srinagar, the summer capital of Jammu and
-                Kashmir, India. It is an urban lake, the second largest lake
-                in Jammu and Kashmir, and the most visited place in Srinagar
-                by tourists and locals.
-              </p>
-              <div class="more">
-                <a href="https://en.wikipedia.org/wiki/Dal_Lake" class="read-more">Read <span>More</span></a>
-              </div>
-            </div>
-          </div>
-          <!--image card end-->
-
-          <!--image card start-->
-          <div class="image">
-            <img src="images/jaipur.jpg" alt="" />
-            <div class="details">
-              <h2>Hawa Mahal <span> Rajasthan </span></h2>
-              <p>
-                The Hawa Mahal is a palace in the city of Jaipur, India. Built
-                from red and pink sandstone, it is on the edge of the City
-                Palace, Jaipur, and extends to the Zenana, or women's
-                chambers.
-              </p>
-              <div class="more">
-                <a href="https://en.wikipedia.org/wiki/Hawa_Mahal" class="read-more">Read <span>More</span></a>
-              </div>
-            </div>
-          </div>
-          <!--image card end-->
-          <!--image card start-->
-
-          <div class="image">
-            <img src="images/Ajanta-caves.jpg" alt="" />
-            <div class="details">
-              <h2>Ajanta Caves <span> Maharashtra </span></h2>
-              <p>
-                Ajanta Caves, Buddhist rock-cut cave temples and monasteries,
-                located near Ajanta village, north-central Maharashtra state,
-                western India, that are celebrated for their wall paintings.
-              </p>
-              <div class="more">
-                <a href="https://www.maharashtratourism.gov.in/-/ajanta" class="read-more">Read <span>More</span></a>
-              </div>
-            </div>
-          </div>
-          <!--image card end-->
-        </div>
-        <div class="row">
-          <!--image row end-->
-          <!--image card start-->
-          <div class="image">
-            <img src="https://cdn.budgetyourtrip.com/images/photos/headerphotos/large/india_amritsar.jpg" alt="" />
-            <div class="details">
-              <h2>Golden Temple <span> Amritsar, Punjab</span></h2>
-              <p>
-                The Golden Temple (also known as the Harmandir Sahib,
-                lit. 'abode of God'. It is the preeminent spiritual site of
-                Sikhism.
-              </p>
-              <div class="more">
-                <a href="https://en.wikipedia.org/wiki/Golden_Temple" class="read-more">Read <span>More</span></a>
-              </div>
-            </div>
-          </div>
-          <!--image card end-->
-
-          <!--image card start-->
-          <div class="image">
-            <img src="images/sinhgad.jpg" alt="" />
-            <div class="details">
-              <h2>Sinhagad Fort <span>Pune,Maharashtra</span></h2>
-              <p>Sinhagad is an ancient hill fortress, Battle of Sinhagad</p>
-              <div class="more">
-                <a href="https://punetourism.co.in/sinhagad-fort-pune" class="read-more">Read <span>More</span></a>
-              </div>
-            </div>
-          </div>
-          <!--image card end-->
-
-          <div class="image">
-            <img src="images/lonavala.jpg" alt="" />
-            <div class="details">
-              <h2>lonavala <span>Pune, Maharashtra</span></h2>
-              <p>
-                Lonavala is one of the twin hill stations located near to each
-                other, the other being Khandala.
-              </p>
-              <div class="more">
-                <a href="https://www.tripadvisor.in/Tourism-g608474-Lonavala_Pune_District_Maharashtra-Vacations.html"
-                  class="read-more">Read <span>More</span></a>
-              </div>
-            </div>
-          </div>
-          <!--image card end-->
-        </div>
-        <!--image row end-->
+       </div>
       </div>
+    <!--image row start-->
       <div class="row">
         <!--image card start-->
         <div class="image">
@@ -625,6 +520,9 @@
         </div>
         <!--image card end-->
       </div>
+    <!--image row end-->
+
+    <!--image row start-->
       <div class="row">
         <!--image card start-->
         <div class="image">
@@ -677,6 +575,9 @@
         <!--image card end-->
 
       </div>
+    <!--image row end-->
+
+    <!--image row start-->
       <div class="row">
         <!--image card start-->
         <div class="image">
@@ -731,6 +632,9 @@
           </div>
         </div>
       </div>
+      <!--image row end-->
+
+      <!--image row start-->
       <div class="row">
         <div class="image">
           <img src="images/mysore-palace.jpg" alt="">
@@ -785,6 +689,114 @@
       <!--    add in this row if only 1 or 2 cards are not present else create a new row   -->
 
 
+  <!--image row start-->
+  <div class="row">
+    <!--image card start-->
+    <div class="image">
+      <img src="images/dallake.jpg" alt="" />
+      <div class="details">
+        <h2>Dal Lake <span> Srinagar </span></h2>
+        <p>
+          Dal is a lake in Srinagar, the summer capital of Jammu and
+          Kashmir, India. It is an urban lake, the second largest lake
+          in Jammu and Kashmir, and the most visited place in Srinagar
+          by tourists and locals.
+        </p>
+        <div class="more">
+          <a href="https://en.wikipedia.org/wiki/Dal_Lake" class="read-more">Read <span>More</span></a>
+        </div>
+      </div>
+    </div>
+    <!--image card end-->
+
+    <!--image card start-->
+    <div class="image">
+      <img src="images/jaipur.jpg" alt="" />
+      <div class="details">
+        <h2>Hawa Mahal <span> Rajasthan </span></h2>
+        <p>
+          The Hawa Mahal is a palace in the city of Jaipur, India. Built
+          from red and pink sandstone, it is on the edge of the City
+          Palace, Jaipur, and extends to the Zenana, or women's
+          chambers.
+        </p>
+        <div class="more">
+          <a href="https://en.wikipedia.org/wiki/Hawa_Mahal" class="read-more">Read <span>More</span></a>
+        </div>
+      </div>
+    </div>
+    <!--image card end-->
+    <!--image card start-->
+
+    <div class="image">
+      <img src="images/Ajanta-caves.jpg" alt="" />
+      <div class="details">
+        <h2>Ajanta Caves <span> Maharashtra </span></h2>
+        <p>
+          Ajanta Caves, Buddhist rock-cut cave temples and monasteries,
+          located near Ajanta village, north-central Maharashtra state,
+          western India, that are celebrated for their wall paintings.
+        </p>
+        <div class="more">
+          <a href="https://www.maharashtratourism.gov.in/-/ajanta" class="read-more">Read <span>More</span></a>
+        </div>
+      </div>
+    </div>
+    <!--image card end-->
+  </div>
+
+  <div class="row">
+    <!--image row end-->
+    <!--image card start-->
+    <div class="image">
+      <img src="https://cdn.budgetyourtrip.com/images/photos/headerphotos/large/india_amritsar.jpg" alt="" />
+      <div class="details">
+        <h2>Golden Temple <span> Amritsar, Punjab</span></h2>
+        <p>
+          The Golden Temple (also known as the Harmandir Sahib,
+          lit. 'abode of God'. It is the preeminent spiritual site of
+          Sikhism.
+        </p>
+        <div class="more">
+          <a href="https://en.wikipedia.org/wiki/Golden_Temple" class="read-more">Read <span>More</span></a>
+        </div>
+      </div>
+    </div>
+    <!--image card end-->
+
+    <!--image card start-->
+    <div class="image">
+      <img src="images/sinhgad.jpg" alt="" />
+      <div class="details">
+        <h2>Sinhagad Fort <span>Pune,Maharashtra</span></h2>
+        <p>Sinhagad is an ancient hill fortress, Battle of Sinhagad</p>
+        <div class="more">
+          <a href="https://punetourism.co.in/sinhagad-fort-pune" class="read-more">Read <span>More</span></a>
+        </div>
+      </div>
+    </div>
+    <!--image card end-->
+
+    <div class="image">
+      <img src="images/lonavala.jpg" alt="" />
+      <div class="details">
+        <h2>lonavala <span>Pune, Maharashtra</span></h2>
+        <p>
+          Lonavala is one of the twin hill stations located near to each
+          other, the other being Khandala.
+        </p>
+        <div class="more">
+          <a href="https://www.tripadvisor.in/Tourism-g608474-Lonavala_Pune_District_Maharashtra-Vacations.html"
+            class="read-more">Read <span>More</span></a>
+        </div>
+      </div>
+    </div>
+    <!--image card end-->
+  </div>
+  <!--image row end-->
+
+
+  <!--image row start-->
       <div class="row">
 
         <!--image card start-->
@@ -822,32 +834,52 @@
           </div>
         </div>
         <!--image card end-->
-
-      </div>
-      <!--image card start-->
-      <div class="image">
-        <img src="images/Kasol.jpg" alt="">
-        <div class="details">
-          <h2>Kasol <span>Himachal Pradesh</span></h2>
-          <p>Kasol is a hamlet in the Kullu district of the Indian state of Himachal Pradesh.It is situated in
-            Parvati Valley, on the banks of the Parvati River.</p>
-          <div class="more">
-            <a href="https://en.wikipedia.org/wiki/Kasol" class="read-more">Read <span>More</span></a>
-
+        <div class="image">
+          <img src="images/Kasol.jpg" alt="">
+          <div class="details">
+            <h2>Kasol <span>Himachal Pradesh</span></h2>
+            <p>Kasol is a hamlet in the Kullu district of the Indian state of Himachal Pradesh.It is situated in
+              Parvati Valley, on the banks of the Parvati River.</p>
+            <div class="more">
+              <a href="https://en.wikipedia.org/wiki/Kasol" class="read-more">Read <span>More</span></a>
+  
+            </div>
           </div>
         </div>
       </div>
-      <!--image card end-->
-
-
+<!--image row end-->
     </div>
     <!--image card layout end-->
 
-    <div>
-      <a id="Bottom" href="#Top">
-        Go back to Top
-      </a>
+    <div class="pagination">
+      
     </div>
+  </div>
+
+  <div>
+    <a id="Bottom" href="#Top">
+      Go back to Top
+    </a>
+  </div>
+
+
+    <footer class="footer-section">
+       
+      <div class="copyright-area">
+          <div class="container">
+              <div class="row">
+                  <div class="col-xl-6 col-lg-6 text-center text-lg-left">
+                      <div class="copyright-text">
+                          <p>Copyright &copy; 2022, All Right Reserved <a href="https://github.com/harshvardhansb"> HarshVardhan Singh</a></p>
+                      </div>
+                  </div>
+               
+              </div>
+          </div>
+      </div>
+  </footer>
+
+
     <script src="./index.js" type="text/javascript"></script>
     <script type="text/javascript">
       const details_paragraph = [...document.querySelectorAll(".details > p")];
@@ -911,6 +943,80 @@
         repeater();
       };
       repeat();
+
+      function getPageList(totalPages, page, maxLength){
+        function range(start, end){
+          return Array.from(Array(end - start + 1), (_, i) => i + start);
+        }
+      
+        var sideWidth = maxLength < 9 ? 1 : 2;
+        var leftWidth = (maxLength - sideWidth * 2 - 3) >> 1;
+        var rightWidth = (maxLength - sideWidth * 2 - 3) >> 1;
+      
+        if(totalPages <= maxLength){
+          return range(1, totalPages);
+        }
+      
+        if(page <= maxLength - sideWidth - 1 - rightWidth){
+          return range(1, maxLength - sideWidth - 1).concat(0, range(totalPages - sideWidth + 1, totalPages));
+        }
+      
+        if(page >= totalPages - sideWidth - 1 - rightWidth){
+          return range(1, sideWidth).concat(0, range(totalPages- sideWidth - 1 - rightWidth - leftWidth, totalPages));
+        }
+      
+        return range(1, sideWidth).concat(0, range(page - leftWidth, page + rightWidth), 0, range(totalPages - sideWidth + 1, totalPages));
+      }
+      
+      $(function(){
+        var numberOfItems = $(".card-content .row").length;
+        var limitPerPage = 2; //How many card items visible per a page
+        var totalPages = Math.ceil(numberOfItems / limitPerPage);
+        var paginationSize = 7; //How many page elements visible in the pagination
+        var currentPage;
+      
+        function showPage(whichPage){
+          if(whichPage < 1 || whichPage > totalPages) return false;
+      
+          currentPage = whichPage;
+      
+          $(".card-content .row").hide().slice((currentPage - 1) * limitPerPage, currentPage * limitPerPage).show();
+      
+          $(".pagination li").slice(1, -1).remove();
+      
+          getPageList(totalPages, currentPage, paginationSize).forEach(item => {
+            $("<li>").addClass("page-item").addClass(item ? "current-page" : "dots")
+            .toggleClass("active", item === currentPage).append($("<a>").addClass("page-link")
+            .attr({href: "javascript:void(0)"}).text(item || "...")).insertBefore(".next-page");
+          });
+      
+          $(".previous-page").toggleClass("disable", currentPage === 1);
+          $(".next-page").toggleClass("disable", currentPage === totalPages);
+          return true;
+        }
+      
+        $(".pagination").append(
+          $("<li>").addClass("page-item").addClass("previous-page").append($("<a>").addClass("page-link").attr({href: "javascript:void(0)"}).text("Prev")),
+          $("<li>").addClass("page-item").addClass("next-page").append($("<a>").addClass("page-link").attr({href: "javascript:void(0)"}).text("Next"))
+        );
+      
+        $(".card-content").show();
+        showPage(1);
+      
+        $(document).on("click", ".pagination li.current-page:not(.active)", function(){
+          return showPage(+$(this).text());
+        });
+      
+        $(".next-page").on("click", function(){
+          return showPage(currentPage + 1);
+        });
+      
+        $(".previous-page").on("click", function(){
+          return showPage(currentPage - 1);
+        });
+      });
+    
+  
     </script>
 </body>
 
