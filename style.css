@@ -17,6 +17,38 @@ body {
   background: white;
 }
 
+
+/* header */
+header {
+  font-family: "Poppins", sans-serif;
+  font-size: 2.2rem;
+  font-weight: 600;
+  text-align: center;
+  margin: 1rem 0;
+  color: whitesmoke;
+  text-transform: uppercase;
+  font-weight: 700;
+  background-color: rgb(0, 107, 195);
+  background-image: radial-gradient(
+      at 11% 84%,
+      rgb(57, 156, 209) 0px,
+      transparent 50%
+    ),
+    radial-gradient(at 77% 15%, rgb(32, 57, 168) 0px, transparent 50%);
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 40px;
+  border-radius: 5px;
+  text-align: left;
+  padding: 10px;
+  letter-spacing: 0.2rem;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+
+
 /* image slider */
 
 
