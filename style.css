@@ -576,3 +576,6 @@ color: #ff5e14;
 {
   color : white;
 }
+.image:hover{
+  transform: scale(1.15);
+}
