@@ -564,6 +564,15 @@ section {
 
 }
 
+ a
+{
+  color : white;
+}
+.image:hover{
+  transform: scale(1.15);
+
+
 a {
   color: white;
+
 }
