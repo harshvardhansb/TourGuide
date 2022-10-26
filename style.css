@@ -564,12 +564,12 @@ section {
 
 }
 
- a
+/*  a
 {
   color : white;
 }
 .image:hover{
-  transform: scale(1.15);
+  transform: scale(1.15); */
 
 
 a {
