@@ -10,93 +10,134 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" charset="utf-8"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
+  <link rel="stylesheet" href="sliderStyle.css">
+
 </head>
 
 <body>
-  <!-- images slide start  -->
+  <!-- ======images slide start ========= -->
 
   <div class="themechanger">
     <i class="bi bi-brightness-high-fill" id="toggleDark"></i>
   </div>
   <header>Tourguide</header>
   <section style="display: flex; justify-content: center; align-items: center">
-    <div id="Top" class="img-slider">
-      <div class="slide active">
-        <img src="slider/India.jpg" alt="" />
-        <div class="info">
-          <h2>India</h2>
-          <p>
-            Because India will invariably throw some surprises at you.
-          </p>
-        </div>
-      </div>
-      <div class="slide">
-        <img src="slider/Valleys.jpg" alt="" />
-        <div class="info">
-          <h2>Valleys</h2>
-          <p>
-            There are several valleys in India and each of these has an unparalleled charm. Some valleys of India are
-            covered with snow while some of them are luxuriant green. Due to being diverse in nature, these valleys
-            attract travelers from all over the world.
-            Valleys of India are perfect for nature lovers and photography enthusiasts.
-          </p>
-        </div>
-      </div>
-      <div class="slide">
-        <img src="slider/Deserts.jpg" alt="" />
-        <div class="info">
-          <h2>Deserts</h2>
-          <p>
-            Like other landscapes, India is also home to three famous deserts that include Cold Mountain Desert of the
-            Trans-Himalayas, White Salt Desert of Kutch and Golden Sandy Desert of Rajasthan. Each of these deserts has
-            its own exclusivity contributing into
-            the natural diversity of India.
-          </p>
-        </div>
-      </div>
-      <div class="slide">
-        <img src="slider/Beaches.jpg" alt="" />
-        <div class="info">
-          <h2>Beaches</h2>
-          <p>
-            Just like hill stations, valleys and wildlife sanctuaries, beaches also play important role in contributing
-            to the diverse natural beauty of India. There are many beaches in India that attract a number of travelers
-            for enjoying vacation. These beaches
-            also allow the travelers to enjoy excellent beachside activities.
-          </p>
-        </div>
-      </div>
-      <div class="slide">
-        <img src="slider/Backwater.jpg" alt="" />
-        <div class="info">
-          <h2>Backwaters</h2>
-          <p>
-            Bordered by dense groves of coconut trees, backwaters of India are often beautifully green owing to the
-            growth of algae on the facade. Backwaters of Kerala and Goa are important part of tourism in India. To
-            enhance their beauty, these backwaters are explored
-            using elegantly crafted houseboats that are the epitome of luxury, style and comfort. Travelers indulge into
-            peaceful surroundings of the backwaters on their vacations.
-          </p>
-        </div>
-      </div>
-      <div class="slide">
-        <img src="slider/mangrove.jpg" alt="" />
-        <div class="info">
-          <h2>Mangrove</h2>
-          <p>
-            A mangrove is a shrub or tree that grows in coastal saline or brackish water. The term is also used for
-            tropical coastal vegetation consisting of such species.
-          </p>
-        </div>
-      </div>
 
-      <div class="navigation">
-        <div class="btn active"></div>
-        <div class="btn"></div>
-        <div class="btn"></div>
-        <div class="btn"></div>
-        <div class="btn"></div>
-        <div class="btn"></div>
+
+    <div class='parent'>
+      <div class='slider'>
+        <button type="button" id='right' class='right' name="button">
+
+          <svg version="1.1" id="Capa_1" width='40px' height='40px ' xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 477.175 477.175"
+            style="enable-background:new 0 0 477.175 477.175;" xml:space="preserve">
+            <g>
+              <path style='fill: #9d9d9d;' d="M360.731,229.075l-225.1-225.1c-5.3-5.3-13.8-5.3-19.1,0s-5.3,13.8,0,19.1l215.5,215.5l-215.5,215.5
+            c-5.3,5.3-5.3,13.8,0,19.1c2.6,2.6,6.1,4,9.5,4c3.4,0,6.9-1.3,9.5-4l225.1-225.1C365.931,242.875,365.931,234.275,360.731,229.075z
+            " />
+            </g>
+
+          </svg>
+
+        </button>
+        <button type="button" id='left' class='left' name="button">
+          <svg version="1.1" id="Capa_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+            x="0px" y="0px" viewBox="0 0 477.175 477.175" style="enable-background:new 0 0 477.175 477.175;"
+            xml:space="preserve">
+            <g>
+              <path style='fill: #9d9d9d;' d="M145.188,238.575l215.5-215.5c5.3-5.3,5.3-13.8,0-19.1s-13.8-5.3-19.1,0l-225.1,225.1c-5.3,5.3-5.3,13.8,0,19.1l225.1,225
+            c2.6,2.6,6.1,4,9.5,4s6.9-1.3,9.5-4c5.3-5.3,5.3-13.8,0-19.1L145.188,238.575z" />
+            </g>
+          </svg>
+        </button>
+        <svg id='svg2' class='up2' xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+          <circle id='circle1' class='circle1 steap' cx="34px" cy="49%" r="20" />
+          <circle id='circle2' class='circle2 steap' cx="34px" cy="49%" r="100" />
+          <circle id='circle3' class='circle3 steap' cx="34px" cy="49%" r="180" />
+          <circle id='circle4' class='circle4 steap' cx="34px" cy="49%" r="260" />
+          <circle id='circle5' class='circle5 steap' cx="34px" cy="49%" r="340" />
+          <circle id='circle6' class='circle6 steap' cx="34px" cy="49%" r="420" />
+          <circle id='circle7' class='circle7 steap' cx="34px" cy="49%" r="500" />
+          <circle id='circle8' class='circle8 steap' cx="34px" cy="49%" r="580" />
+          <circle id='circle9' class='circle9 steap' cx="34px" cy="49%" r="660" />
+        </svg>
+        <svg id='svg1' class='up2' xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+          <circle id='circle10' class='circle10 steap' cx="648px" cy="49%" r="20" />
+          <circle id='circle11' class='circle11 steap' cx="648px" cy="49%" r="100" />
+          <circle id='circle12' class='circle12 steap' cx="648px" cy="49%" r="180" />
+          <circle id='circle13' class='circle13 steap' cx="648px" cy="49%" r="260" />
+          <circle id='circle14' class='circle14 steap' cx="648px" cy="49%" r="340" />
+          <circle id='circle15' class='circle15 steap' cx="648px" cy="49%" r="420" />
+          <circle id='circle16' class='circle16 steap' cx="648px" cy="49%" r="500" />
+          <circle id='circle17' class='circle17 steap' cx="648px" cy="49%" r="580" />
+          <circle id='circle18' class='circle18 steap' cx="648px" cy="49%" r="660" />
+        </svg>
+        <div id='slide1' class='slide1 up1'>
+          <div class="info">
+            <h2>India</h2>
+            <p>
+              Because India will invariably throw some surprises at you.
+            </p>
+          </div>
+        </div>
+        <div id='slide2' class='slide2'>
+          <div class="info">
+            <h2>Valleys</h2>
+            <p>
+              There are several valleys in India and each of these has an unparalleled charm. Some valleys of India are
+              covered with snow while some of them are luxuriant green. Due to being diverse in nature, these valleys
+              attract travelers from all over the world.
+              Valleys of India are perfect for nature lovers and photography enthusiasts.
+            </p>
+          </div>
+        </div>
+        <div id='slide3' class='slide3'>
+          <div class="info">
+            <h2>Deserts</h2>
+            <p>
+              Like other landscapes, India is also home to three famous deserts that include Cold Mountain Desert of the
+              Trans-Himalayas, White Salt Desert of Kutch and Golden Sandy Desert of Rajasthan. Each of these deserts
+              has
+              its own exclusivity contributing into
+              the natural diversity of India.
+            </p>
+          </div>
+        </div>
+        <div id='slide4' class='slide4'>
+          <div class="info">
+            <h2>Beaches</h2>
+            <p>
+              Just like hill stations, valleys and wildlife sanctuaries, beaches also play important role in
+              contributing
+              to the diverse natural beauty of India. There are many beaches in India that attract a number of travelers
+              for enjoying vacation. These beaches
+              also allow the travelers to enjoy excellent beachside activities.
+            </p>
+          </div>
+        </div>
+        <div id='slide5' class='slide5'>
+          <div class="info">
+            <h2>Backwaters</h2>
+            <p>
+              Bordered by dense groves of coconut trees, backwaters of India are often beautifully green owing to the
+              growth of algae on the facade. Backwaters of Kerala and Goa are important part of tourism in India. To
+              enhance their beauty, these backwaters are explored
+              using elegantly crafted houseboats that are the epitome of luxury, style and comfort. Travelers indulge
+              into
+              peaceful surroundings of the backwaters on their vacations.
+            </p>
+          </div>
+        </div>
+        <div id='slide6' class='slide6'>
+          <div class="info">
+            <h2>Mangrove</h2>
+            <p>
+              A mangrove is a shrub or tree that grows in coastal saline or brackish water. The term is also used for
+              tropical coastal vegetation consisting of such species.
+            </p>
+          </div>
+        </div>
+
       </div>
     </div>
   </section>
@@ -1198,6 +1239,8 @@
 
 
   </script>
+  <script src="slider.js"></script>
+
 </body>
 
 </html>
