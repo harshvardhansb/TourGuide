@@ -7,17 +7,19 @@
 }
 
 .parent {
-    width: 680px;
-    height: 360px;
+    width: 720px;
+    height: 400px;
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
-    margin: 120px 50px 130px 160px;
+    margin: 140px 50px 130px 160px;
     overflow: hidden;
     position: absolute;
     border-radius: 16px;
     box-shadow: 0 0 88px 5px rgba(0, 0, 0, 0.75);
+    display: flex;
+    align-items: center;
 }
 
 svg {
@@ -73,7 +75,7 @@ circle {
 }
 
 .right {
-    margin-left: 628px;
+    margin-left: 660px;
     margin-top: 168px;
     border: 1px solid #849494;
     background-color: transparent;
