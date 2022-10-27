@@ -11,9 +11,7 @@
     height: 400px;
     top: 0;
     bottom: 0;
-    left: 0;
-    right: 0;
-    margin: 140px 50px 130px 160px;
+    margin: auto;
     overflow: hidden;
     position: absolute;
     border-radius: 16px;
