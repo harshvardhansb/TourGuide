@@ -58,6 +58,10 @@ Contributing to TourGuide is a cake-walk as long as you follow the below steps ð
   <img src="https://contrib.rocks/image?repo=harshvardhansb/TourGuide" />
 </a>
 <br/>
+
+
+
+<br><br>
 <div align="center">
 Maintained with <img src="https://emojipedia-us.s3.amazonaws.com/source/microsoft-teams/337/green-heart_1f49a.png" height="18"/> <a href="https://github.com/harshvardhansb">Harsh Vardhan</a>
 </div>
