@@ -7,6 +7,38 @@
   box-sizing: border-box;
 }
 
+.icon{
+  text-align: center;
+}
+
+.social-icon{
+  margin: 20px 20px;
+	font-size: 1.5em;
+  color: white;
+}
+
+.social-icon:hover{
+  color: rgb(208, 197, 197);
+}
+
+
+::-webkit-scrollbar
+{
+	width: 10px;
+	background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	background-image: -webkit-gradient(linear,
+									   left bottom,
+									   left top,
+									   color-stop(0.44, rgb(122,153,217)),
+									   color-stop(0.72, rgb(73,125,189)),
+									   color-stop(0.86, rgb(28,58,148)));
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -120,7 +152,7 @@ section {
 }
 
 
-/* 
+/*
 .img-slider .navigation {
   z-index: 2;
   position: absolute;
