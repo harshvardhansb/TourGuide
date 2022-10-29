@@ -47,3 +47,6 @@ Only contributors can add their name here  ⬅️
  [GitHub](https://github.com/das-amit)
 <!-- next name below this line --> 
 
+### [Akshay Rai](https://www.linkedin.com/in/akshay-rai-5b21a3223/)
+ [GitHub](https://github.com/akshayrai14)
+<!-- next name below this line -->
