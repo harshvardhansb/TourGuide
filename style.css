@@ -19,8 +19,28 @@
 
 .social-icon:hover{
   color: rgb(208, 197, 197);
+  transform: scale(1.10);
 }
 
+.fa-twitter:hover{
+  color: #0AB1CE;
+}
+
+.fa-facebook-f:hover{
+  color: #4267B2;
+}
+
+.fa-instagram:hover{
+  background: linear-gradient(to right, #405DE6,#5B51D8,#833AB4,#C13584,#E1306C,#FD1D1D,#F56040,#F77737,#FCAF45,#FFDC80);
+}
+
+.fa-envelope:hover{
+  color: #EA4335;
+}
+
+.fa-linkedin:hover{
+  color: #0077B5;
+}
 
 ::-webkit-scrollbar
 {
