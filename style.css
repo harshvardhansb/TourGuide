@@ -7,57 +7,69 @@
   box-sizing: border-box;
 }
 
-.icon{
+.icon {
   text-align: center;
 }
 
-.social-icon{
+.social-icon {
   margin: 20px 20px;
-	font-size: 1.5em;
+  font-size: 1.5em;
   color: white;
 }
 
-.social-icon:hover{
+.social-icon:hover {
   color: rgb(208, 197, 197);
-  transform: scale(1.10);
+  transform: scale(1.1);
 }
 
-.fa-twitter:hover{
-  color: #0AB1CE;
+.fa-twitter:hover {
+  color: #0ab1ce;
 }
 
-.fa-facebook-f:hover{
-  color: #4267B2;
+.fa-facebook-f:hover {
+  color: #4267b2;
 }
 
-.fa-instagram:hover{
-  background: linear-gradient(to right, #405DE6,#5B51D8,#833AB4,#C13584,#E1306C,#FD1D1D,#F56040,#F77737,#FCAF45,#FFDC80);
-	border-radius:70%;
+.fa-instagram:hover {
+  background: linear-gradient(
+    to right,
+    #405de6,
+    #5b51d8,
+    #833ab4,
+    #c13584,
+    #e1306c,
+    #fd1d1d,
+    #f56040,
+    #f77737,
+    #fcaf45,
+    #ffdc80
+  );
+  border-radius: 70%;
 }
 
-.fa-envelope:hover{
-  color: #EA4335;
+.fa-envelope:hover {
+  color: #ea4335;
 }
 
-.fa-linkedin:hover{
-  color: #0077B5;
+.fa-linkedin:hover {
+  color: #0077b5;
 }
 
-::-webkit-scrollbar
-{
-	width: 10px;
-	background-color: #F5F5F5;
+::-webkit-scrollbar {
+  width: 10px;
+  background-color: #f5f5f5;
 }
 
-::-webkit-scrollbar-thumb
-{
-	border-radius: 10px;
-	background-image: -webkit-gradient(linear,
-									   left bottom,
-									   left top,
-									   color-stop(0.44, rgb(122,153,217)),
-									   color-stop(0.72, rgb(73,125,189)),
-									   color-stop(0.86, rgb(28,58,148)));
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-image: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    color-stop(0.44, rgb(122, 153, 217)),
+    color-stop(0.72, rgb(73, 125, 189)),
+    color-stop(0.86, rgb(28, 58, 148))
+  );
 }
 
 html {
@@ -70,7 +82,6 @@ body {
   background: white;
 }
 
-
 /* header */
 header {
   font-family: "Poppins", sans-serif;
@@ -82,9 +93,11 @@ header {
   text-transform: uppercase;
   font-weight: 700;
   background-color: rgb(0, 107, 195);
-  background-image: radial-gradient(at 11% 84%,
+  background-image: radial-gradient(
+      at 11% 84%,
       rgb(57, 156, 209) 0px,
-      transparent 50%),
+      transparent 50%
+    ),
     radial-gradient(at 77% 15%, rgb(32, 57, 168) 0px, transparent 50%);
   margin-left: 40px;
   margin-right: 40px;
@@ -96,12 +109,6 @@ header {
   position: sticky;
   top: 0;
   z-index: 100;
-  animation: myfirst 0.5s linear 0s 1 alternate;
-}
-@keyframes myfirst {
-  0%   {left:0px; top:1000px;}
-  50%  {left:85px; top:500px;}
-  100% {left:0px; top:0px;}
 }
 
 section {
@@ -109,7 +116,6 @@ section {
 }
 
 /* image slider */
-
 
 /* .img-slider {
   position: relative;
@@ -150,7 +156,6 @@ section {
   top: 0;
   padding: 15px 30px;
   text-align: center;
-
 }
 
 .info h2 {
@@ -175,9 +180,7 @@ section {
   padding: 10px;
   border-radius: 4px;
   text-align: left;
-
 }
-
 
 /*
 .img-slider .navigation {
@@ -222,7 +225,6 @@ section {
     font-size: 12px;
     margin-left: 50px;
   }
-
 }
 
 @media (max-width: 620px) {
@@ -261,7 +263,6 @@ section {
     font-size: 8px;
     letter-spacing: normal;
     margin-left: 10px;
-
   }
 }
 
@@ -386,8 +387,6 @@ section {
   margin-right: 20px;
 }
 
-
-
 .details {
   opacity: 0;
   position: relative;
@@ -400,7 +399,7 @@ section {
   inset: 0;
 }
 
-.image:hover>.details {
+.image:hover > .details {
   transition: 250ms ease;
   opacity: 1;
 }
@@ -434,7 +433,6 @@ section {
 
 /* theme changer  */
 
-
 .themechanger {
   font-size: 30px;
   cursor: pointer;
@@ -453,14 +451,11 @@ section {
 }
 
 .themechanger:hover {
-
   background: rgb(208, 197, 197);
   bottom: 6%;
   width: 55px;
   height: 55px;
   filter: blur(0.1rem);
-
-
 }
 
 /* Responsive CSS */
@@ -471,7 +466,6 @@ section {
     max-width: 480px;
   }
 }
-
 
 @media (max-width: 600px) {
   .themechanger {
@@ -489,7 +483,6 @@ section {
     display: flex;
     justify-content: center;
   }
-
 }
 
 @media (max-width: 400px) {
@@ -542,7 +535,7 @@ section {
 
 .previous-page,
 .next-page {
-  background: #0AB1CE;
+  background: #0ab1ce;
   width: 80px;
   border-radius: 45px;
   cursor: pointer;
@@ -566,13 +559,12 @@ section {
 }
 
 .active {
-  background: #0AB1CE;
+  background: #0ab1ce;
 }
 
 .disable {
   background: #ccc;
 }
-
 
 /* Footer Section */
 
@@ -615,13 +607,10 @@ section {
 }
 
 .back_to_top:hover {
-
   background: rgb(208, 197, 197);
   bottom: 6%;
   width: 50px;
   height: 50px;
-
-
 }
 
 /*  a
@@ -631,8 +620,34 @@ section {
 .image:hover{
   transform: scale(1.15); */
 
-
 a {
   color: white;
+}
 
+.contact-us {
+  display: block;
+  align-content: center;
+}
+
+#button-contact {
+  display: block;
+  position: static;
+  width: fit-content;
+  padding-bottom: 4%;
+}
+
+.contact-btn-text {
+  vertical-align: middle;
+}
+
+#contact-form-text {
+  margin-left: 3%;
+  text-align: left;
+  margin-right: 14%;
+}
+
+#contact-options {
+  margin-left: 3%;
+  text-align: left;
+  margin-right: 14%;
 }
