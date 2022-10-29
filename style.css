@@ -527,7 +527,8 @@ section {
 }
 
 .pagination li a {
-  color: #fff;
+  color: rgb(0, 0, 0);
+  font-weight: 400;
   text-decoration: none;
   font-size: 1.2em;
   line-height: 45px;
