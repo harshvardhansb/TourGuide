@@ -4,17 +4,17 @@
  A simple application made using HTML, CSS, JavaScript.
 
 
-## What you can Contribute?
+## How you can Contribute?
 
 There is always something to contribute for everyone. In this project, you can add your favourite place to visit as a card to the website! 
-Or maybe you didn't like the line that you are reading right now and want to change it! Well, why not?
+Or maybe you don't like the line that you are reading right now and want to change it! Well, why not?
 
 We appreciate all kinds of contributions from core-code contributions to non-code contributions like fixing the site, suggesting a feature, raising an issue, etc.
 
 
 ## How to Contribute?
 
-Contributing to TourGuide is a cake-walk as long as you follow the below steps 😉
+Contributing to TourGuide is a cake-walk as long as you follow the steps below 😉
 
 1. Choose a destination whose card you want to contribute, make sure it's not there on the site yet 
 2. `Fork` the repository
