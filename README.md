@@ -44,7 +44,7 @@ Contributing to TourGuide is a cake-walk as long as you follow the below steps ð
        </div>
       <!--image row end-->
    ```
-7. Each row div conatains 3 image cards.
+7. Each row div contains 3 image cards.
 8. `Sync` your Fork & then create a `Pull Request`. If there are any conflicts with the main branch then resolve them first.
     ``` sh
     title: Name of the place added
