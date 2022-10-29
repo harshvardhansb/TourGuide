@@ -96,6 +96,12 @@ header {
   position: sticky;
   top: 0;
   z-index: 100;
+  animation: myfirst 0.5s linear 0s 1 alternate;
+}
+@keyframes myfirst {
+  0%   {left:0px; top:1000px;}
+  50%  {left:85px; top:500px;}
+  100% {left:0px; top:0px;}
 }
 
 section {
@@ -527,7 +533,8 @@ section {
 }
 
 .pagination li a {
-  color: #fff;
+  color: rgb(0, 0, 0);
+  font-weight: 400;
   text-decoration: none;
   font-size: 1.2em;
   line-height: 45px;
