@@ -30,6 +30,7 @@ Contributing to TourGuide is a cake-walk as long as you follow the steps below ð
                 <p>[Add some Info aout the place not more than 30 words] </p>
                  <div class="more">
                     <a href="[add a link which have more details about the place]" class="read-more">Read <span>More</span></a>
+                    <a href="[add a link directing to its location]" class="read-more">See <span>Location</span></a>
                   </div>
              </div>
        </div>
@@ -58,7 +59,6 @@ Contributing to TourGuide is a cake-walk as long as you follow the steps below ð
   <img src="https://contrib.rocks/image?repo=harshvardhansb/TourGuide" />
 </a>
 <br/>
-
 
 
 <br><br>
