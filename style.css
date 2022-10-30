@@ -444,9 +444,9 @@ section {
   z-index: 90;
   transition: all 0.3s ease;
   background: rgb(219, 211, 211);
-  border-radius: 20px;
-  height: 30px;
-  width: 30px;
+  border-radius: 25px;
+  height: 37px;
+  width: 37px;
   display: flex;
   justify-content: center;
   align-items: center;
