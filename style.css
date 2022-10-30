@@ -468,10 +468,22 @@ section {
 @media (max-width: 1080px) {
   .image {
     flex: 100%;
-    max-width: 480px;
+    max-width: 460px;
   }
 }
 
+@media (max-width: 550px) {
+  .image {
+    flex: 100%;
+    max-width: 360px;
+  }
+}
+@media (max-width: 480px) {
+  .image {
+    flex: 100%;
+    max-width: 260px;
+  }
+}
 
 @media (max-width: 600px) {
   .themechanger {
