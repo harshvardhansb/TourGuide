@@ -75,3 +75,7 @@ Only contributors can add their name here  ⬅️
 [GitHub](https://github.com/shenwai)
 
 <!-- next name below this line -->
+
+### [Amol](https://github.com/amol-gits)
+
+[GitHub Link](https://github.com/amol-gits)
