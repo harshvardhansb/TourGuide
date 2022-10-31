@@ -449,20 +449,24 @@ section {
 /* theme changer  */
 
 .themechanger {
-  font-size: 30px;
+  font-size: 25px;
   cursor: pointer;
   position: fixed;
-  top: 85%;
+  top: 84%;
   left: 90%;
   z-index: 90;
   transition: all 0.3s ease;
   background: rgb(219, 211, 211);
   border-radius: 25px;
-  height: 37px;
-  width: 37px;
+  height: 50px;
+  width:50px;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.bi{
+  margin-bottom: 10px;
 }
 
 .themechanger:hover {
