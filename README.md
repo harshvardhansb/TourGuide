@@ -1,5 +1,5 @@
-# TourGuide <img src="https://emojipedia-us.s3.amazonaws.com/source/microsoft-teams/337/national-park_1f3de-fe0f.png" height="40"/>
-**Star <img src="https://emojipedia-us.s3.amazonaws.com/source/microsoft-teams/337/star_2b50.png" height="20"/> the repository if you liked it!**
+# TourGuide 🖼️
+**Star ⭐ the repository if you liked it!**
 
  A simple application made using HTML, CSS, JavaScript.
 
@@ -63,5 +63,5 @@ Contributing to TourGuide is a cake-walk as long as you follow the steps below �
 
 <br><br>
 <div align="center">
-Maintained with <img src="https://emojipedia-us.s3.amazonaws.com/source/microsoft-teams/337/green-heart_1f49a.png" height="18"/> <a href="https://github.com/harshvardhansb">Harsh Vardhan</a>
+Maintained with ♥️ <a href="https://github.com/harshvardhansb">Harsh Vardhan</a>
 </div>
