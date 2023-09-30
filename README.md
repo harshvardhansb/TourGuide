@@ -1,4 +1,4 @@
-# TourGuide 🖼️
+ # TourGuide 🖼️    ( OpenSourced for Hacktoberfest 2023 )
 **Star ⭐ the repository if you liked it!**
 
  A simple application made using HTML, CSS, JavaScript.
