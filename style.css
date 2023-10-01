@@ -613,8 +613,21 @@ section {
 .copyright-text p {
   margin: 0;
   font-size: 16px;
-  color: #a0a0a0;
+  color: gray;
+  display: inline;
+  align-items: center;
 }
+
+@media screen and (min-width: 922px) {
+  .copyright-text p {
+  margin: 0 0 0 65px;
+  font-size: 16px;
+  color: gray;
+  display: inline;
+  align-items: center;
+}
+  }
+
 
 .copyright-text p a {
   color: #ff5e14;
