@@ -549,7 +549,9 @@ section {
 .pagination {
   text-align: center;
   margin: 30px 30px 60px;
-  user-select: none;
+  user-select: none;  
+  display:flex;
+  flex-wrap: wrap;
 }
 
 .pagination li {
