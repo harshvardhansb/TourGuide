@@ -674,6 +674,11 @@ a {
   vertical-align: middle;
 }
 
+.card-card-body{
+  background-color: rgb(32, 32, 32);
+  color: white;
+}
+
 #contact-form-text {
   margin-left: 3%;
   text-align: left;
