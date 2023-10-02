@@ -51,10 +51,10 @@ Contributing to TourGuide is a cake-walk as long as you follow the steps below �
     title: Name of the place added
     description: Issue no: #[Issue no here] (for adding a new place its #4)
     ```
- That's it, you have successfully contributed to tourGuide. Your Place will appear on the site within minutes of your PR getting merged <img src="https://emojipedia-us.s3.amazonaws.com/source/microsoft-teams/337/partying-face_1f973.png" height="20"/>
+ That's it, you have successfully contributed to tourGuide. Your Place will appear on the site within minutes of your PR getting merged 🖇️
 
 
-# OUR AMAZING CONTRIBUTORS <img src="https://emojipedia-us.s3.amazonaws.com/source/microsoft-teams/337/man-technologist_1f468-200d-1f4bb.png" height="40"/>
+# OUR AMAZING CONTRIBUTORS 🧑‍💻👩‍💻
 <a href="https://github.com/harshvardhansb/TourGuide/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=harshvardhansb/TourGuide" />
 </a>
