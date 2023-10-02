@@ -70,6 +70,12 @@ Only contributors can add their name here  ⬅️
 
 <!-- next name below this line -->
 
+### [Anju Narnolia](https://github.com/https://github.com/Anju-Narnolia)
+
+[GitHub Link](https://github.com/Anju-Narnolia)
+
+<!-- next name below this line -->
+
 ### [Shivansh Yashasvi](https://www.linkedin.com/in/shivansh-yashasvi-16405620b/)
 
 [GitHub](https://github.com/shenwai)
