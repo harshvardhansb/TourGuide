@@ -479,8 +479,8 @@ section {
 .themechanger:hover {
   background: rgb(208, 197, 197);
   bottom: 6%;
-  width: 55px;
-  height: 55px;
+  width: 52px;
+  height: 52px;
   filter: blur(0.1rem);
 }
 
@@ -517,19 +517,22 @@ section {
 
 @media (max-width: 600px) {
   .themechanger {
-    font-size: 30px;
+    font-size: 20px;
     cursor: pointer;
-    position: fixed;
     top: 85%;
     left: 86%;
     z-index: 90;
     transition: all 0.3s ease;
     background: rgb(219, 211, 211);
     border-radius: 20px;
-    height: 60px;
-    width: 60px;
+    height: 40px;
+    width: 40px;
     display: flex;
     justify-content: center;
+  }
+  .themechanger:hover{
+    width: 45px;
+    height: 45px;
   }
 }
 
@@ -548,9 +551,8 @@ section {
   }
 
   .themechanger {
-    font-size: 50px;
+    font-size: 20px;
     cursor: pointer;
-    position: fixed;
     top: 85%;
     left: 80%;
     z-index: 90;
@@ -679,6 +681,12 @@ section {
   width: 50px;
   height: 50px;
 }
+@media (max-width: 600px) {
+  .back_to_top {
+    display: none;
+  }
+}
+
 
 /*  a
 {
@@ -722,4 +730,15 @@ a {
   margin-left: 3%;
   text-align: left;
   margin-right: 14%;
+}
+.name {
+
+    font-size: 36px;
+    font-weight: bold;
+
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.5),
+                 0 0 20px rgba(255, 255, 255, 0.5),
+                 0 0 30px rgba(255, 255, 255, 0.5);
+
+ color:#fff;
 }
