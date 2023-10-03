@@ -683,7 +683,7 @@ a {
   display: block;
   position: static;
   width: fit-content;
-  padding-bottom: 4%;
+  margin-bottom: 4%;
 }
 
 .contact-btn-text {
