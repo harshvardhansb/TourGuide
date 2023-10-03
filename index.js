@@ -20,13 +20,24 @@ toggle.addEventListener('click', function(){
     }
 });
 
-function mailto(){
+function mailto(e) {
+    e.preventDefault();
+    const form = e.target;
+    const data = new FormData(form);
+    const object = {};
+    data.forEach((value, key) => (object[key] = value));
 
-      var email = "harshvardhanhbtu@gmail.com"
-      var mailto_link = 'mailto:' + email
-      window = window.open(mailto_link, 'emailWindow')
-      if (window && window.open && !window.closed)         
-          window.close()
+    var name = object["contact_name"];
+    var place = object["contact_place"];
+    var email = "harshvardhanhbtu@gmail.com";
+
+    var subject = `Name: ${name} and Place: ${place}`;
+    var encodedSubject = encodeURI(subject);
+    var mailto_link = "mailto:" + email + `?subject=${encodedSubject}`;
+
+    window.location.href = mailto_link;
+    
+    document.getElementById("contact").reset();
 }
 
 document.getElementById('next').onclick = function(){

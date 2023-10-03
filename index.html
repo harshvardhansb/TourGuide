@@ -1690,16 +1690,16 @@
 
 
                 <div class="col-sm" id="contact-options">
-                  <form>
+                  <form name="contact_form" id="contact" method="post" onsubmit="mailto(event)">
                     <div class="form-group">
                       <label for="name">Name</label>
-                      <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                      <input type="text" class="form-control" id="name" name="contact_name" placeholder="Enter your name">
                     </div>
                     <div class="form-group">
                       <label for="placename">Name of Place</label>
-                      <input type="text" class="form-control" id="placename" placeholder="Place Name">
+                      <input type="text" class="form-control" id="placename" name="contact_place" placeholder="Place Name">
                     </div>
-                    <button type="submit" class="btn btn-primary" id="button-contact" onclick="mailto()">Submit</button>
+                    <button type="submit" class="btn btn-primary" id="button-contact">Submit</button>
                   </form>
                 </div>
 
