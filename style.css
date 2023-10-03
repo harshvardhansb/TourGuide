@@ -32,19 +32,17 @@
 }
 
 .fa-instagram:hover {
-  background: linear-gradient(
-    to right,
-    #405de6,
-    #5b51d8,
-    #833ab4,
-    #c13584,
-    #e1306c,
-    #fd1d1d,
-    #f56040,
-    #f77737,
-    #fcaf45,
-    #ffdc80
-  );
+  background: linear-gradient(to right,
+        #405de6,
+        #5b51d8,
+        #833ab4,
+        #c13584,
+        #e1306c,
+        #fd1d1d,
+        #f56040,
+        #f77737,
+        #fcaf45,
+      #ffdc80);
   border-radius: 70%;
 }
 
@@ -63,14 +61,12 @@
 
 ::-webkit-scrollbar-thumb {
   border-radius: 10px;
-  background-image: -webkit-gradient(
-    linear,
-    left bottom,
-    left top,
-    color-stop(0.44, rgb(122, 153, 217)),
-    color-stop(0.72, rgb(73, 125, 189)),
-    color-stop(0.86, rgb(28, 58, 148))
-  );
+  background-image: -webkit-gradient(linear,
+        left bottom,
+        left top,
+        color-stop(0.44, rgb(122, 153, 217)),
+        color-stop(0.72, rgb(73, 125, 189)),
+      color-stop(0.86, rgb(28, 58, 148)));
 }
 
 html {
@@ -94,11 +90,9 @@ header {
   text-transform: uppercase;
   font-weight: 700;
   background-color: rgb(0, 107, 195);
-  background-image: radial-gradient(
-      at 11% 84%,
+  background-image: radial-gradient(at 11% 84%,
       rgb(57, 156, 209) 0px,
-      transparent 50%
-    ),
+      transparent 50%),
     radial-gradient(at 77% 15%, rgb(32, 57, 168) 0px, transparent 50%);
   margin-left: 40px;
   margin-right: 40px;
@@ -112,15 +106,18 @@ header {
   z-index: 100;
   animation: myfirst 0.5s linear 0s 1 alternate;
 }
+
 @keyframes myfirst {
   0% {
     left: 0px;
     top: 1000px;
   }
+
   50% {
     left: 85px;
     top: 500px;
   }
+
   100% {
     left: 0px;
     top: 0px;
@@ -241,6 +238,9 @@ section {
     font-size: 12px;
     margin-left: 50px;
   }
+.back_to_top {
+  display: none;
+}
 }
 
 @media (max-width: 620px) {
@@ -252,6 +252,9 @@ section {
     font-size: 30px;
   }
 
+                                                                                                                                                                                                                                                                .back_to_top {
+                                                                                                                                                                                                                                                                  display: none;
+                                                                                                                                                                                                                                                                }
   .info p {
     width: 80%;
     font-size: 10px;
@@ -270,6 +273,9 @@ section {
     padding: 5px 10px;
   }
 
+                                                                                                                                                                                                                                                                .back_to_top {
+                                                                                                                                                                                                                                                                  display: none;
+                                                                                                                                                                                                                                                                }
   .info h2 {
     font-size: 25px;
   }
@@ -415,7 +421,7 @@ section {
   inset: 0;
 }
 
-.image:hover > .details {
+.image:hover>.details {
   transition: 250ms ease;
   opacity: 1;
 }
@@ -452,21 +458,21 @@ section {
 .themechanger {
   font-size: 25px;
   cursor: pointer;
-  position: fixed;
-  top: 84%;
+  position: absolute;
+    top: 15%;
   left: 90%;
   z-index: 90;
   transition: all 0.3s ease;
   background: rgb(219, 211, 211);
   border-radius: 25px;
   height: 50px;
-  width:50px;
+  width: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.bi{
+.bi {
   margin-bottom: 10px;
 }
 
@@ -485,6 +491,7 @@ section {
     flex: 100%;
     max-width: 460px;
   }
+
 }
 
 @media (max-width: 550px) {
@@ -492,8 +499,16 @@ section {
     flex: 100%;
     max-width: 360px;
   }
+.back_to_top {
+  display: none;
+  visibility: hidden;
+}
 }
 @media (max-width: 480px) {
+  .back_to_top {
+      display: none;
+      visibility: hidden;
+    }
   .image {
     flex: 100%;
     max-width: 260px;
@@ -519,6 +534,10 @@ section {
 }
 
 @media (max-width: 400px) {
+  .back_to_top {
+      display: none;
+      visibility: hidden;
+    }
   .image .details p {
     font-size: 16px;
   }
@@ -550,8 +569,8 @@ section {
   text-align: center;
   justify-content: center;
   margin: 30px 30px 60px;
-  user-select: none;  
-  display:flex;
+  user-select: none;
+  display: flex;
   flex-wrap: wrap;
 }
 
@@ -625,15 +644,13 @@ section {
 
 @media screen and (min-width: 922px) {
   .copyright-text p {
-  margin: 0 0 0 65px;
-  font-size: 16px;
-  color: gray;
-  display: inline;
-  align-items: center;
-}
-  }
-
-
+    margin: 0 0 0 65px;
+      font-size: 16px;
+      color: gray;
+      display: inline;
+      align-items: center;
+    }
+    }
 .copyright-text p a {
   color: #ff5e14;
 }
@@ -690,7 +707,7 @@ a {
   vertical-align: middle;
 }
 
-.card-card-body{
+.card-card-body {
   background-color: rgb(32, 32, 32);
   color: white;
 }
