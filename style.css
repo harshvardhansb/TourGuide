@@ -575,6 +575,7 @@ section {
   user-select: none;
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
 }
 
 .pagination li {
@@ -588,16 +589,19 @@ section {
   font-weight: 400;
   text-decoration: none;
   font-size: 1.2em;
-  line-height: 45px;
+  height: auto;
+  border-radius: 50%;
+  border: solid 2px lightgray;
 }
 
 .previous-page,
 .next-page {
   background: #0ab1ce;
   width: 80px;
-  border-radius: 45px;
+  border-radius: 100%;
   cursor: pointer;
   transition: 0.3s ease;
+
 }
 
 .previous-page:hover {
