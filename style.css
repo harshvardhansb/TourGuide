@@ -17,12 +17,33 @@
   font-size: 1.5em;
   color: white;
 }
+.social-icons {
 
+  font-size: 0.9em;
+  color:whitesmoke;
+}
+.social-icons:hover {
+  color: rgb(208, 197, 197);
+  transform: scale(1.1);
+}
 .social-icon:hover {
   color: rgb(208, 197, 197);
   transform: scale(1.1);
 }
+.icons {
+  display: flex;
+  justify-content:flex-start;
+  margin-left: -10px;
 
+
+}
+.iconss {
+  display: flex;
+  justify-content:center;
+ 
+
+
+}
 .fa-twitter:hover {
   color: #0ab1ce;
 }
