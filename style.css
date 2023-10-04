@@ -75,6 +75,7 @@ html {
 
 body {
   height: 100vh;
+   overflow-x: hidden;
   font-family: "Raleway", sans-serif;
   background: white;
 }
