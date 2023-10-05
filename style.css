@@ -275,7 +275,7 @@ section {
   }
 
                                                                                                                                                                                                                                                                 .back_to_top {
-                                                                                                                                                                                                                                                                  display: none;
+                                                                                                                                                                                                                                                                  display: none !important;
                                                                                                                                                                                                                                                                 }
   .info p {
     width: 80%;
@@ -296,7 +296,7 @@ section {
   }
 
                                                                                                                                                                                                                                                                 .back_to_top {
-                                                                                                                                                                                                                                                                  display: none;
+                                                                                                                                                                                                                                                                  display: none !important;
                                                                                                                                                                                                                                                                 }
   .info h2 {
     font-size: 25px;
@@ -523,13 +523,12 @@ section {
     max-width: 360px;
   }
 .back_to_top {
-  /* display: none; */
+  display: none !important;
   /* visibility: hidden; */
-}
-}
+}}
 @media (max-width: 480px) {
   .back_to_top {
-      /* display: none; */
+      display: none !important;
       /* visibility: hidden; */
     }
   .image {
@@ -561,8 +560,7 @@ section {
 
 @media (max-width: 400px) {
   .back_to_top {
-      /* display: none; */
-      /* visibility: hidden; */
+      display: none !important;
     }
   .image .details p {
     font-size: 16px;
@@ -736,7 +734,7 @@ section {
 }
 @media (max-width: 600px) {
   .back_to_top {
-    /* display: none; */
+    display: none;
   }
 }
 
