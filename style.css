@@ -379,13 +379,14 @@ section {
 
 .image .details p {
   font-size: 1rem;
-  text-align: center;
+  text-align:center;
   opacity: 0;
   margin: 2em 0;
   padding: 0 1.5em;
   line-height: 1.4rem;
   transition: 0.6s ease;
   transition-property: opacity, transform;
+  
 }
 
 .image:hover .details p {
