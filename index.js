@@ -4,18 +4,18 @@ const body = document.querySelector('body');
 const backtotop = document.getElementById('Bottom');
 
 toggle.addEventListener('click', function(){
-    this.classList.toggle('bi-brightness-high-fill');
-    if(this.classList.toggle('bi-moon')){
-        body.style.background = 'white';
-        body.style.color = 'black';
-        backtotop.style.color="black";
-        body.style.transition = '2s';
-        toggle.style.color = 'black';
-    }else{
+    if(this.checked){
+        // Dark mode is enabled
         body.style.background = '#1d212b';
         body.style.color = 'white';
+        backtotop.style.color = 'white'; // Changed the color for 'backtotop' element
         body.style.transition = '2s';
-        toggle.style.color = 'black';
+    }else{
+        // Dark mode is disable
+        body.style.background = 'white';
+        body.style.color = 'black';
+        backtotop.style.color = 'black'; // Changed the color for 'backtotop' element
+        body.style.transition = '2s';
 
     }
 });
