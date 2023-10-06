@@ -1,10 +1,13 @@
-@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Exo2-Medium";
+}
+
+@font-face {
+  font-family: Exo2-Medium;
+  src: url(fonts/Exo2-Medium.ttf);
 }
 
 .icon {
@@ -17,33 +20,39 @@
   font-size: 1.5em;
   color: white;
 }
+
 .social-icons {
 
   font-size: 0.9em;
-  color:whitesmoke;
+  color: whitesmoke;
 }
+
 .social-icons:hover {
   color: rgb(208, 197, 197);
   transform: scale(1.1);
 }
+
 .social-icon:hover {
   color: rgb(208, 197, 197);
   transform: scale(1.1);
 }
+
 .icons {
   display: flex;
-  justify-content:flex-start;
+  justify-content: flex-start;
   margin-left: -10px;
 
 
 }
+
 .iconss {
   display: flex;
-  justify-content:center;
- 
+  justify-content: center;
+
 
 
 }
+
 .fa-twitter:hover {
   color: #0ab1ce;
 }
@@ -54,15 +63,15 @@
 
 .fa-instagram:hover {
   background: linear-gradient(to right,
-        #405de6,
-        #5b51d8,
-        #833ab4,
-        #c13584,
-        #e1306c,
-        #fd1d1d,
-        #f56040,
-        #f77737,
-        #fcaf45,
+      #405de6,
+      #5b51d8,
+      #833ab4,
+      #c13584,
+      #e1306c,
+      #fd1d1d,
+      #f56040,
+      #f77737,
+      #fcaf45,
       #ffdc80);
   border-radius: 70%;
 }
@@ -83,10 +92,10 @@
 ::-webkit-scrollbar-thumb {
   border-radius: 10px;
   background-image: -webkit-gradient(linear,
-        left bottom,
-        left top,
-        color-stop(0.44, rgb(122, 153, 217)),
-        color-stop(0.72, rgb(73, 125, 189)),
+      left bottom,
+      left top,
+      color-stop(0.44, rgb(122, 153, 217)),
+      color-stop(0.72, rgb(73, 125, 189)),
       color-stop(0.86, rgb(28, 58, 148)));
 }
 
@@ -96,14 +105,12 @@ html {
 
 body {
   height: 100vh;
-   overflow-x: hidden;
-  font-family: "Raleway", sans-serif;
+  overflow-x: hidden;
   background: white;
 }
 
 /* header */
 header {
-  font-family: "Poppins", sans-serif;
   font-size: 2.2rem;
   font-weight: 600;
   text-align: center;
@@ -260,9 +267,10 @@ section {
     font-size: 12px;
     margin-left: 50px;
   }
-.back_to_top {
-  display: none;
-}
+
+  .back_to_top {
+    display: none;
+  }
 }
 
 @media (max-width: 620px) {
@@ -274,9 +282,10 @@ section {
     font-size: 30px;
   }
 
-                                                                                                                                                                                                                                                                .back_to_top {
-                                                                                                                                                                                                                                                                  display: none !important;
-                                                                                                                                                                                                                                                                }
+  .back_to_top {
+    display: none !important;
+  }
+
   .info p {
     width: 80%;
     font-size: 10px;
@@ -295,9 +304,10 @@ section {
     padding: 5px 10px;
   }
 
-                                                                                                                                                                                                                                                                .back_to_top {
-                                                                                                                                                                                                                                                                  display: none !important;
-                                                                                                                                                                                                                                                                }
+  .back_to_top {
+    display: none !important;
+  }
+
   .info h2 {
     font-size: 25px;
   }
@@ -330,6 +340,7 @@ section {
   height: 300px;
   margin: 20px;
   overflow: hidden;
+  border-radius: 10px;
 }
 
 .image img {
@@ -379,14 +390,14 @@ section {
 
 .image .details p {
   font-size: 1rem;
-  text-align:center;
+  text-align: center;
   opacity: 0;
   margin: 2em 0;
   padding: 0 1.5em;
   line-height: 1.4rem;
   transition: 0.6s ease;
   transition-property: opacity, transform;
-  
+
 }
 
 .image:hover .details p {
@@ -482,7 +493,7 @@ section {
   font-size: 25px;
   cursor: pointer;
   position: absolute;
-    top: 15%;
+  top: 15%;
   left: 90%;
   z-index: 90;
   transition: all 0.3s ease;
@@ -522,15 +533,19 @@ section {
     flex: 100%;
     max-width: 360px;
   }
-.back_to_top {
-  display: none !important;
-  /* visibility: hidden; */
-}}
+
+  .back_to_top {
+    display: none !important;
+    /* visibility: hidden; */
+  }
+}
+
 @media (max-width: 480px) {
   .back_to_top {
-      display: none !important;
-      /* visibility: hidden; */
-    }
+    display: none !important;
+    /* visibility: hidden; */
+  }
+
   .image {
     flex: 100%;
     max-width: 260px;
@@ -552,7 +567,8 @@ section {
     display: flex;
     justify-content: center;
   }
-  .themechanger:hover{
+
+  .themechanger:hover {
     width: 45px;
     height: 45px;
   }
@@ -560,8 +576,9 @@ section {
 
 @media (max-width: 400px) {
   .back_to_top {
-      display: none !important;
-    }
+    display: none !important;
+  }
+
   .image .details p {
     font-size: 16px;
   }
@@ -585,8 +602,8 @@ section {
     display: flex;
     justify-content: center;
   }
+
   header {
-    font-family: "Poppins", sans-serif;
     font-size: 2rem;
     font-weight: 600;
     text-align: center;
@@ -677,7 +694,7 @@ section {
 /* Footer Section */
 
 .footer-section {
-  background:linear-gradient(to right , black 0%, rgb(89, 89, 89) 50%, black 100%);
+  background: linear-gradient(to right, black 0%, rgb(89, 89, 89) 50%, black 100%);
   position: relative;
 }
 
@@ -698,12 +715,13 @@ section {
 @media screen and (min-width: 922px) {
   .copyright-text p {
     margin: 0 0 0 65px;
-      font-size: 16px;
-      color: gray;
-      display: inline;
-      align-items: center;
-    }
-    }
+    font-size: 16px;
+    color: gray;
+    display: inline;
+    align-items: center;
+  }
+}
+
 .copyright-text p a {
   color: #ff5e14;
 }
@@ -714,7 +732,7 @@ section {
   cursor: pointer;
   position: fixed;
   top: 85%;
-  left: 10%;
+  right: 5%;
   z-index: 90;
   transition: all 0.3s ease;
   background: rgb(219, 211, 211);
@@ -732,6 +750,7 @@ section {
   width: 50px;
   height: 50px;
 }
+
 @media (max-width: 600px) {
   .back_to_top {
     display: none;
@@ -782,16 +801,17 @@ a {
   text-align: left;
   margin-right: 14%;
 }
+
 .name {
 
-    font-size: 36px;
-    font-weight: bold;
+  font-size: 36px;
+  font-weight: bold;
 
-    text-shadow: 0 0 10px rgba(255, 255, 255, 0.5),
-                 0 0 20px rgba(255, 255, 255, 0.5),
-                 0 0 30px rgba(255, 255, 255, 0.5);
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.5),
+    0 0 20px rgba(255, 255, 255, 0.5),
+    0 0 30px rgba(255, 255, 255, 0.5);
 
- color:#fff;
+  color: #fff;
 }
 
 
@@ -825,12 +845,12 @@ a {
 }
 
 /* night sky background */
-#toggleDark:checked + svg #container {
+#toggleDark:checked+svg #container {
   fill: #2b4360;
 }
 
 /* move button to right when checked */
-#toggleDark:checked + svg #button {
+#toggleDark:checked+svg #button {
   transform: translate(28px, 2.333px);
 }
 
@@ -839,7 +859,7 @@ a {
   opacity: 1;
 }
 
-#toggleDark:checked + svg #sun {
+#toggleDark:checked+svg #sun {
   opacity: 0;
 }
 
@@ -847,7 +867,7 @@ a {
   opacity: 0;
 }
 
-#toggleDark:checked + svg #moon {
+#toggleDark:checked+svg #moon {
   opacity: 1;
 }
 
@@ -856,7 +876,7 @@ a {
   opacity: 1;
 }
 
-#toggleDark:checked + svg #cloud {
+#toggleDark:checked+svg #cloud {
   opacity: 0;
 }
 
@@ -864,6 +884,6 @@ a {
   opacity: 0;
 }
 
-#toggleDark:checked + svg #stars {
+#toggleDark:checked+svg #stars {
   opacity: 1;
 }
