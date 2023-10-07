@@ -52,6 +52,38 @@
 
 
 }
+.searchbox{
+  height: 80%;
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.search_button{
+  height: 40px;
+  width: 15%;
+  font-size: 1rem;
+  border: none;
+  border-top-right-radius: 1.2rem;
+  background-color: black;
+  color: white;
+  border-bottom-right-radius: 1.2rem;
+
+
+}
+.search_input{
+  padding: 20px;
+  height: 40px;
+  font-size: 1rem;
+  width: 70%;
+  border: none;
+  border-top-left-radius: 1.2rem;
+  border-bottom-left-radius: 1.2rem;
+
+}
+input[type="text"]:focus{
+  outline: none;
+}
 
 .fa-twitter:hover {
   color: #0ab1ce;
@@ -209,6 +241,11 @@ section {
   font-weight: 800;
   letter-spacing: 2px;
 }
+.head{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
 .info p {
   color: #fff;
@@ -222,6 +259,12 @@ section {
   padding: 10px;
   border-radius: 4px;
   text-align: left;
+}
+.logo_container{
+  display: flex;
+
+justify-content: space-around;
+align-items: center;
 }
 
 /*
@@ -253,6 +296,18 @@ section {
     width: 600px;
     height: 375px;
   } */
+.head{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column-reverse;
+}
+.logo_container{
+  width: max(50%,250px);
+}
+.searchbox{
+  width: max(50%,220px);
+}
 
   .info {
     padding: 10px 25px;
