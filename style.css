@@ -135,6 +135,46 @@ header {
   z-index: 100;
   animation: myfirst 0.5s linear 0s 1 alternate;
 }
+.form{
+
+  position: relative;
+  width: 40%;
+}
+
+.form .fa-search{
+
+  position: absolute;
+  top:3px;
+  left: 4px;
+  color: #9ca3af;
+
+}
+
+.form span{
+
+      position: absolute;
+  right: 40px;
+  top: 13px;
+  padding: 2px;
+  border-left: 1px solid #d1d5db;
+  
+
+}
+
+
+
+.form-input{
+
+  height: 55px;
+  text-indent: 33px;
+  border-radius: 10px;
+}
+
+.form-input:focus{
+
+  box-shadow: none;
+  border:none;
+}
 
 @keyframes myfirst {
   0% {
