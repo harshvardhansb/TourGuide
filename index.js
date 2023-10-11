@@ -1,9 +1,10 @@
-
 const toggle = document.getElementById('toggleDark');
 const body = document.querySelector('body');
 const backtotop = document.getElementById('Bottom');
 
-toggle.addEventListener('click', function(){
+toggle.addEventListener('click', function(event){
+    // console.log("toggle button", event.target.checked);
+    // console.log("toggle button", toggle.checked);
     if(this.checked){
         // Dark mode is enabled
         body.style.background = '#1d212b';
@@ -16,9 +17,14 @@ toggle.addEventListener('click', function(){
         body.style.color = 'black';
         backtotop.style.color = 'black'; // Changed the color for 'backtotop' element
         body.style.transition = '2s';
-
     }
 });
+
+
+window.onload = function() {
+    toggle.checked=false;
+    // console.log("toggle button", toggle.value);
+};
 
 function mailto(e) {
     e.preventDefault();
