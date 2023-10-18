@@ -4,6 +4,12 @@ Only contributors can add their name here  ⬅️
 
 <!-- add your name and links after the bottom most name -->
 
+### [Mohd Abbas Haidar](https://github.com/the-hdr)
+
+[GitHub Link](https://github.com/the-hdr)
+
+<!-- next name below this line -->
+
 ### [Harsh Vardhan](https://github.com/harshvardhansb)
 
 [GitHub Link](https://github.com/harshvardhansb)
