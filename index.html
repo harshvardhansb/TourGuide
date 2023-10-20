@@ -23,8 +23,9 @@
         <div class="head">
 
             <div class="searchbox">
-                <input type="text" class="search_input" placeholder="enter city">
-                <button class="search_button">Go</button>
+                <input id="placeName" type="text" class="search_input" placeholder="enter city">
+                <button onclick="searchPlace()"
+                class="search_button">Go</button>
             </div>
             <div class="logo_container">
             <span style=" font-size:30px;cursor:pointer" onclick="openNav()">
@@ -2418,6 +2419,7 @@
                 e.innerText = e.textContent;
             }
         });
+       
 
         // var slides = document.querySelectorAll(".slide");
         // var btns = document.querySelectorAll(".btn");
@@ -2563,6 +2565,16 @@
                 $('html, body').animate({ scrollTop: 0 }, 'slow');
             });
         });
+        function searchPlace() {
+            // Get the place name entered by the user
+            var placeName = document.getElementById("placeName").value;
+
+            // Redirect to the Wikipedia page for the entered place
+            if (placeName) {
+                var wikipediaURL = "https://en.wikipedia.org/wiki/" + encodeURI(placeName);
+                window.location.href = wikipediaURL;
+            }
+        }
 
 
 
