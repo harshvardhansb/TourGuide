@@ -52,14 +52,16 @@
 
 
 }
-.searchbox{
+
+.searchbox {
   height: 80%;
   width: 25%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.search_button{
+
+.search_button {
   height: 40px;
   width: 15%;
   font-size: 1rem;
@@ -71,7 +73,8 @@
 
 
 }
-.search_input{
+
+.search_input {
   padding: 20px;
   height: 40px;
   font-size: 1rem;
@@ -81,7 +84,8 @@
   border-bottom-left-radius: 1.2rem;
 
 }
-input[type="text"]:focus{
+
+input[type="text"]:focus {
   outline: none;
 }
 
@@ -145,7 +149,6 @@ body {
 header {
   font-size: 2.2rem;
   font-weight: 600;
-  text-align: center;
   margin: 1rem 1rem;
   color: whitesmoke;
   text-transform: uppercase;
@@ -241,7 +244,8 @@ section {
   font-weight: 800;
   letter-spacing: 2px;
 }
-.head{
+
+.head {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -260,11 +264,12 @@ section {
   border-radius: 4px;
   text-align: left;
 }
-.logo_container{
+
+.logo_container {
   display: flex;
 
-justify-content: space-around;
-align-items: center;
+  justify-content: space-around;
+  align-items: center;
 }
 
 /*
@@ -292,22 +297,25 @@ align-items: center;
 } */
 
 @media (max-width: 820px) {
+
   /* .img-slider {
     width: 600px;
     height: 375px;
   } */
-.head{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-direction: column-reverse;
-}
-.logo_container{
-  width: max(50%,250px);
-}
-.searchbox{
-  width: max(50%,220px);
-}
+  .head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column-reverse;
+  }
+
+  .logo_container {
+    width: max(50%, 250px);
+  }
+
+  .searchbox {
+    width: max(50%, 220px);
+  }
 
   .info {
     padding: 10px 25px;
@@ -424,6 +432,8 @@ align-items: center;
 
 .image .details h2 {
   text-align: center;
+  text-align: left;
+  padding: 0 1em;
   font-size: 1.7rem;
   text-transform: uppercase;
   text-decoration: none;
@@ -445,9 +455,10 @@ align-items: center;
 
 .image .details p {
   font-size: 1rem;
-  text-align: center;
+  text-align: left;
+
   opacity: 0;
-  margin: 2em 0;
+  margin: 1em 0 2em 0;
   padding: 0 1.5em;
   line-height: 1.4rem;
   transition: 0.6s ease;
@@ -467,7 +478,6 @@ align-items: center;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 15px;
   bottom: -60px;
   transition: 0.6s ease;
   transition-property: bottom;
@@ -483,6 +493,7 @@ align-items: center;
   font-size: 20px;
   font-weight: 500;
   text-transform: uppercase;
+  padding: 15px 15px;
 }
 
 .more .read-more span {
@@ -496,6 +507,12 @@ align-items: center;
 
 .more .icon-links a:not(:last-child) i {
   margin-right: 20px;
+}
+
+.read-more:hover {
+  background-color: #0077b5;
+
+  color: white
 }
 
 .details {
