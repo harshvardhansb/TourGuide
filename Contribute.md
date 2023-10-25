@@ -103,3 +103,11 @@ Only contributors can add their name here  ⬅️
 ### [Shreya Prasad](https://www.linkedin.com/in/shreyaprasad02/)
 
 [GitHub Link](https://github.com/Shreyaprasad02)
+
+<!-- next name below this line -->
+
+### [Tanishka Shivhare](https://github.com/Tanishka-22)
+
+[GitHub Link](https://github.com/Tanishka-22)
+
+<!-- next name below this line -->
