@@ -729,6 +729,20 @@ section {
   border: solid 2px lightgray;
 }
 
+
+.page-item:first-child .page-link {
+  border-radius: 50%;
+  border-top-right-radius: 0.25rem;
+  border-bottom-right-radius: 0.25rem;
+}
+
+
+.page-item:last-child .page-link {
+  border-radius: 50%;
+  border-top-left-radius: 0.25rem;
+  border-bottom-left-radius: 0.25rem;
+}
+
 .previous-page,
 .next-page {
   background: #0ab1ce;
@@ -736,8 +750,8 @@ section {
   border-radius: 100%;
   cursor: pointer;
   transition: 0.3s ease;
-
 }
+
 
 .previous-page:hover {
   transform: translateX(-5px);
