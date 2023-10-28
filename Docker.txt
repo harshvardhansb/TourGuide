@@ -1,0 +1,22 @@
+This file Contains guide for running Docker Image 
+
+## Prerequisites ##
+- Install docker desktop 
+- Create Account onm DockerHub which is Similar place like Github for Docker 
+- Now Open Docker Desktop App and Login through the dockerhub account 
+- while running docker always check whether your docker desktop app is open or not .
+
+## Steps ##
+- open Docker Desktop and do not close it during the whole process . 
+
+- Come in Directory of project 
+
+- Open terminal in vscode and give command docker Login 
+
+- It should say login succeeded .
+
+- After this type command ## docker build -t Giveanynamehere . ##(command given between # is whole command )  this whole is command and be in the directory where the dockerfile is there . 
+
+- After this go in docker desktop and in Images section you should see the your given name in above command .
+
+- After this give commnand ## docker run -it -p 8000:8000 yourgivenname ## and after go in browser and write localhost:8000 and booom your docker Image is on 
