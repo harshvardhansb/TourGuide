@@ -149,7 +149,7 @@ body {
 header {
   font-size: 2.2rem;
   font-weight: 600;
-  margin: 1rem 1rem;
+  margin: 0 0rem 1rem 0rem;
   color: whitesmoke;
   text-transform: uppercase;
   font-weight: 700;
@@ -384,9 +384,9 @@ section {
 }
 
 /* image cards */
-.container {
-  margin: 30px;
-}
+/* .container {
+  margin: 0px;
+} */
 
 .row {
   width: 100%;
@@ -781,12 +781,17 @@ section {
 
 .footer-section {
   background: linear-gradient(to right, black 0%, rgb(89, 89, 89) 50%, black 100%);
+  width: 100%;
   position: relative;
+  border-top-right-radius: 1.2rem;
+  border-top-left-radius: 1.2rem;
 }
 
 .copyright-area {
   background: #202020;
   padding: 2px 0;
+  border-top-left-radius: 1.2rem;
+  border-top-right-radius: 1.2rem;
 }
 
 .copyright-text p {
@@ -818,7 +823,7 @@ section {
   cursor: pointer;
   position: fixed;
   top: 85%;
-  right: 5%;
+  right: 7%;
   z-index: 90;
   transition: all 0.3s ease;
   background: rgb(219, 211, 211);
